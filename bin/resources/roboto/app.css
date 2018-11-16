@@ -1,0 +1,27 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+@font-face {
+	font-family: Roboto;
+	src:url('roboto/Roboto-Black.ttf')
+}
+
+@font-face {
+	font-family: RobotoBold;
+	src:url('roboto/Roboto-Bold.ttf')
+}
+
+@font-face {
+	font-family: RobotoConBold;
+	src:url('roboto/RobotoCondensed-Bold.ttf')
+}
+
+.root {
+	-fx-font-family: 'RobotoConBold';
+	-fx-focus-color: transparent;
+	-fx-faint-focus-color:transparent; 
+}
+
+.background{
+	-fx-background-repeat : repeat ;
+	-fx-background-color: linear-gradient(#38424 0%, #1f2429 20%, #191d22 100%),linear-gradient(#20262b, #191d22),radial-gradient(center 50% 0%, radius 100%,rgba(114,131,148,0.9), rgba(255,255,255,0));
+}
